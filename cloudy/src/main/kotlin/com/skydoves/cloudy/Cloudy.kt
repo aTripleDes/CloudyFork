@@ -71,7 +71,7 @@ import kotlin.coroutines.suspendCoroutine
 @Composable
 public fun Cloudy(
   modifier: Modifier = Modifier,
-  @androidx.annotation.IntRange(from = 0, to = 25) radius: Int = 10,
+  @androidx.annotation.IntRange(from = 0, to = 150) radius: Int = 10,
   key1: Any? = null,
   key2: Any? = null,
   allowAccumulate: (CloudyState) -> Boolean = { false },
